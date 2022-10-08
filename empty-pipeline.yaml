@@ -24,10 +24,10 @@ spec:
     - 
       github: 
         secret: secret101
-      type: GitHub
+        type: GitHub
     - 
       generic: 
         secret: secret101
-      type: Generic
+        type: Generic
 status: 
   lastVersion: 0
