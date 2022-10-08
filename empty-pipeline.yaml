@@ -21,13 +21,11 @@ spec:
       jenkinsfile: "#!groovy\n"
     type: JenkinsPipeline
   triggers: 
-    - 
       github: 
         secret: secret101
-        type: GitHub
-    - 
+      type: GitHub
       generic: 
         secret: secret101
-        type: Generic
+      type: Generic
 status: 
   lastVersion: 0
